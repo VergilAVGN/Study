@@ -179,92 +179,93 @@ $
 
 - Разделим числитель и знаменатель на высшую степень $( n )$ --- $( n^2)$: (Podziel licznik i mianownik przez największą potęgę $( n )$ --- $( n^2)$:)
 
-   $
+   $$
    \frac{n^2 + 3n}{2n^2 - 2n} = \frac{\frac{n^2}{n^2} + \frac{3n}{n^2}}{\frac{2n^2}{n^2} - \frac{2n}{n^2}} = \frac{1 + \frac{3}{n}}{2 - \frac{2}{n}}.
-   $
+   $$
 
 - Теперь при $( n \to \infty )$, выражения с $ \frac{1}{n} $ стремятся к нулю, и получаем:(Teraz dla $( n \to \infty )$ wyrażenia z $ \frac{1}{n} $ dążą do zera i otrzymujemy:)
 
-   $
+   $$
    \lim_{n \to \infty} \frac{1 + \frac{3}{n}}{2 - \frac{2}{n}} = \frac{1 + 0}{2 - 0} = \frac{1}{2}.
-   $
+   $$
 
-**Ответ:(Odpowiedź:)**  $\frac{1}{2}$.
+**Ответ:(Odpowiedź:)** $$\frac{1}{2}$$
 
-$
+---
+$$
 \lim_{n \to \infty} \frac{(2n + 3)^3}{n^3 - 1}.
-$
+$$
 
 
 - Разделим числитель и знаменатель на высшую степень $(n^3)$:(Podziel licznik i mianownik przez największą potęgę $(n^3)$:)
 
-   $
+   $$
    \frac{(2n + 3)^3}{n^3 - 1} = \frac{\left( 2 + \frac{3}{n} \right)^3}{1 - \frac{1}{n^3}}.
-   $
+   $$
 
 - Теперь при $ n \to \infty $, выражения с $ \frac{1}{n} $ и $ \frac{1}{n^3} $ стремятся к нулю:(Teraz dla $ n \to \infty $ wyrażenia z $ \frac{1}{n} $ i $ \frac{1}{n^3} $ mają tendencję do zera:)
 
-   $
+   $$
    \lim_{n \to \infty} \frac{\left( 2 + \frac{3}{n} \right)^3}{1 - \frac{1}{n^3}} = \frac{2^3}{1} = 8.
-   $
+   $$
 
-**Ответ(Odpowiedź:):** $8$.
+**Ответ(Odpowiedź:):** $$8$$
 
 2. Prove using the squeeze theorem:
    - $\displaystyle\lim_{n \to \infty} \frac{\sin(n)}{n}$
 ---
-$
+$$
 \lim_{n \to \infty} \frac{\sin(n)}{n}.
-$
+$$
 
 
 1. Заметим, что функция $ \sin(n) $ всегда ограничена, то есть для всех $ n $ выполняется неравенство:(Zauważ, że funkcja $ \sin(n) $ jest zawsze ograniczona, to znaczy dla wszystkich $ n $ zachodzi nierówność:)
 
-   $
+   $$
    -1 \leq \sin(n) \leq 1.
-   $
+   $$
 
 2. Разделим все части неравенства на $ n $ (при $ n > 0 $):(Podzielmy wszystkie części nierówności przez $ n $ (jeśli $ n > 0 $))
 
-   $
+   $$
    \frac{-1}{n} \leq \frac{\sin(n)}{n} \leq \frac{1}{n}.
-   $
+   $$
 
 3. Теперь вычислим пределы левых и правых частей:(Teraz obliczmy granice lewej i prawej części:)
 
-   $
+   $$
    \lim_{n \to \infty} \frac{-1}{n} = 0, \quad \lim_{n \to \infty} \frac{1}{n} = 0.
-   $
+   $$
 
 4. По теореме о промежуточном пределе (среднее значение для ограниченной функции), мы можем заключить, что:(Zgodnie z pośrednim twierdzeniem granicznym (wartość średnia dla funkcji ograniczonej) możemy stwierdzić, że:)
 
-   $
+   $$
    \lim_{n \to \infty} \frac{\sin(n)}{n} = 0.
-   $
+   $$
 
-**Ответ:(Odpowiedź:)** $ 0 $.
+**Ответ:(Odpowiedź:)** $$0$$
 
  3. Find the limit of the sequence:
    - $a_n = (1+\frac{1}{n})^n$
 
 ---
-$
+$$
 a_n = \left(1 + \frac{1}{n}\right)^n.
-$
+$$
 
 Возьмём логарифм от $a_n$, чтобы упростить выражение. Пусть:
 (Aby uprościć wyrażenie, weźmy logarytm $a_n$. Pozwalać:)
-$
 
-$
+
+$$
 \ln(a_n) = n \ln\left(1 + \frac{1}{n}\right).
-$
+$$
 
 Теперь нужно найти предел для:(Teraz musisz znaleźć granicę dla:)
 
-$
+$$
 \ln(a_n) = n \ln\left(1 + \frac{1}{n}\right).
-$
+$$
 
 Для малых $ x $ известно, что: (Dla małych $ x $ wiadomo, że:)
 $$
@@ -306,9 +307,9 @@ $$
 1. Compute:
    - $\displaystyle\lim_{x \to \infty} \frac{x^3 + 2x^2}{x^4 - 3x^3}$
 ---
-$
+$$
 \lim_{x \to \infty} \frac{x^3 + 2x^2}{x^4 - 3x^3}
-$
+$$
 
 Разделим числитель и знаменатель на $x^4$(Podzielmy licznik i mianownik przez $x^4$)
 
@@ -321,34 +322,34 @@ $$
 
 При $x \to \infty$, дробные члены ($\frac{1}{x}$, $\frac{2}{x^2}$, $\frac{3}{x}$) стремятся к нулю:(Przy $x \to \infty$ wyrazy ułamkowe ($\frac{1}{x}$, $\frac{2}{x^2}$, $\frac{3}{x}$) dążą do zera :)
 
-$
+$$
 \lim_{x \to \infty} \frac{\frac{1}{x} + \frac{2}{x^2}}{1 - \frac{3}{x}} = \frac{0 + 0}{1 - 0} = 0
-$
+$$
 
-**Ответ:(Odpowiedź:)** $0$
+**Ответ:(Odpowiedź:)** $$0$$
 
 2. Find:
    
    - $\displaystyle \lim_{x \to 0} \frac{\sin(3x)}{2x+1}$.
 ---
-$
+$$
 \lim_{x \to 0} \frac{\sin(3x)}{2x + 1}
-$
+$$
 
 Числитель $\sin(3x)$ стремится к нулю при $x \to 0$. Знаменатель $2x + 1$ стремится к $1$. Подставляем $x = 0$:(Licznik $\sin(3x)$ dąży do zera przy $x \to 0$. Mianownik $2x + 1$ ma tendencję do $1$. Zastąp $x = 0 $:)
 
-$
+$$
 \frac{\sin(3x)}{2x + 1} \to \frac{\sin(0)}{2 \cdot 0 + 1} = \frac{0}{1} = 0
-$
+$$
 
-**Ответ:(Odpowiedź:)** $0$
+**Ответ:(Odpowiedź:)** $$0$$
 
 3. Find the asymptotes of the function:
   
    - $f(x) = \frac{x^2 - 1}{x^2 + 1}$
    - $g(x) = \frac{\sin(x)}{x^2+1}$
 ---
-$f(x) = \frac{x^2 - 1}{x^2 + 1}$:
+$$f(x) = \frac{x^2 - 1}{x^2 + 1}:$$
 
 
 
@@ -358,50 +359,50 @@ $f(x) = \frac{x^2 - 1}{x^2 + 1}$:
    
    (Rozważmy granicę $\lim_{x \to \infty} f(x) $:)
 
-   $
+   $$
    f(x) = \frac{x^2 - 1}{x^2 + 1} = \frac{1 - \frac{1}{x^2}}{1 + \frac{1}{x^2}}.
-   $
+   $$
    При $x \to \infty $, $\frac{1}{x^2} \to 0$, поэтому:(Dla $x \to \infty $, $\frac{1}{x^2} \to 0$ ,zatem:)
 
-   $
+   $$
    \lim_{x \to \infty} f(x) = \frac{1 - 0}{1 + 0} = 1.
-   $
+   $$
 
    Также для предела $ \lim_{x \to -\infty} f(x) $:(Również dla granicy $ \lim_{x \to -\infty} f(x) $:)
 
-   $
+   $$
    \lim_{x \to -\infty} f(x) = \frac{1 - 0}{1 + 0} = 1.
-   $
+   $$
 
    **Горизонтальная асимптота(Asymptota pozioma)**: $y = 1$.
 
 - **Вертикальных асимптот нет(Nie ma asymptot pionowych)**.
 
 ---
-$ g(x) = \frac{\sin(x)}{x+1} $:
+$$ g(x) = \frac{\sin(x)}{x+1}: $$
 
 - **Горизонтальные асимптоты(Asymptoty poziome)**:
 
    Рассмотрим предел $ \lim_{x \to \infty} g(x) $:
    (Rozważmy granicę $ \lim_{x \to \infty} g(x) $:)
 
-   $
+   $$
    g(x) = \frac{\sin(x)}{x+1}.
-   $
+   $$
 
    Числитель, $\sin(x)$, ограничен (от $-1$ до $1$), а знаменатель $x + 1 \to \infty $. Поэтому:(Licznik $\sin(x)$ jest ograniczony (od $-1$ do $1$), a mianownik wynosi $x + 1 \to \infty $. Dlatego:)
    
-   $
+   $$
    \lim_{x \to \infty} g(x) = 0.
-   $
+   $$
 
    Также для предела $\lim_{x \to -\infty} g(x) $:(Również dla granicy $\lim_{x \to -\infty} g(x) $:)
    
-   $
+   $$
    \lim_{x \to -\infty} g(x) = 0.
-   $
+   $$
 
-   **Горизонтальная асимптота(Asymptota pozioma)**: $y = 0$.
+   **Горизонтальная асимптота(Asymptota pozioma)**: $y = 0$
 
 - **Вертикальные асимптоты(Asymptoty pionowe)**:
 
@@ -417,7 +418,7 @@ $ g(x) = \frac{\sin(x)}{x+1} $:
 
    Таким образом, при $x = -1 $ существует вертикальная асимптота.(Zatem przy $x = -1 $ istnieje asymptota pionowa.)
 
-   **Вертикальная асимптота(Asymptota pionowa)**: $ x = -1$.
+   **Вертикальная асимптота(Asymptota pionowa)**: $$ x = -1$$.
 
 ## Derivatives
 
@@ -440,67 +441,67 @@ $ g(x) = \frac{\sin(x)}{x+1} $:
    * $y(x) = \sqrt{2x+1}$
 ---
 
-- $ y(x) = - 3x + 3 $
+- $$ y(x) = - 3x + 3 $$
 
-   $
+   $$
    y'(x) = -3.
-   $
+   $$
 
-- $ y(x) = \pi x + \sin(1) $
+- $$ y(x) = \pi x + \sin(1) $$
 
-   $
+   $$
    y'(x) = \pi.
-   $
+   $$
 
-- $ y(x) = 4 + \sin(2) $
+- $$ y(x) = 4 + \sin(2) $$
 
-   $
+   $$
    y'(x) = 0.
-   $
+   $$
 
-- $ y(x) = 2x^2 - 3x^2 + 8x - 9 $
+- $$ y(x) = 2x^2 - 3x^2 + 8x - 9 $$
 
-   $
+   $$
    y'(x) = -2x + 8.
-   $
+   $$
 
-- $ y(x) = 6x^{1/3} $
+- $$ y(x) = 6x^{1/3} $$
 
-   $
+   $$
    y'(x) = 2x^{-2/3}.
-   $
+   $$
 
-- $ y(x) = \sqrt{x} $
+- $$ y(x) = \sqrt{x} $$
 
-   $
+   $$
    y'(x) = \frac{1}{2\sqrt{x}}.
-   $
+   $$
 
-- $y(x) = \cos(x) + \sin(x)$
+- $$y(x) = \cos(x) + \sin(x)$$
 
-   $
+   $$
    y'(x) = -\sin(x) + \cos(x).
-   $
+   $$
 
-- $y(x) = 2\sin(x)\cos(x)$
+- $$y(x) = 2\sin(x)\cos(x)$$
 
    Используем формулу:(Używamy wzoru:)
    
-   $y'(x) = u'v + uv'$.
+   $$y'(x) = u'v + uv'$$
 
-   $
+   $$
    y'(x) = 2(\cos(x) \cdot \cos(x) - \sin(x) \cdot \sin(x)) = 2\cos(2x).
-   $
+   $$
 
-- $y(x) = \exp(x^2)$
+- $$y(x) = \exp(x^2)$$
 
-   $y'(x) = \exp(x^2) \cdot 2x = 2x \exp(x^2)$.
+   $$y'(x) = \exp(x^2) \cdot 2x = 2x \exp(x^2)$$
 
-- $y(x) = \sqrt{x+1}$
+- $$y(x) = \sqrt{x+1}$$
 
-    $
+    $$
     y'(x) = \frac{1}{2\sqrt{x+1}}.
-    $
+    $$
 ---
 2. Prove:
    - $\frac{d}{dx} (\ln(\sin(x))) = \cot(x)$
@@ -508,58 +509,58 @@ $ g(x) = \frac{\sin(x)}{x+1} $:
  
 Если функция имеет вид $y = \ln(u(x)) $, то производная равна:(Jeżeli funkcja ma postać $y = \ln(u(x)) $, to pochodna jest równa:)  
 
-$
+$$
 \frac{d}{dx} \ln(u(x)) = \frac{u'(x)}{u(x)}.
-$
+$$
 
 
  
 В нашем случае $u(x) = \sin(x)$.(W naszym przypadku $u(x) = \sin(x)$.)
 
-$
+$$
 \frac{d}{dx} \ln(\sin(x)) = \frac{\frac{d}{dx} \sin(x)}{\sin(x)}.
-$
+$$
 
 
 
-$
+$$
 \frac{d}{dx} \ln(\sin(x)) = \frac{\cos(x)}{\sin(x)}.
-$
+$$
 
 
  
 Дробь(ułamek) $\frac{\cos(x)}{\sin(x)}$ = $\cot(x)$:
 
-$
+$$
 \frac{d}{dx} \ln(\sin(x)) = \cot(x).
-$
+$$
 
 
 ### Ответ(Odpowiedź):  
-$
+$$
 \frac{d}{dx} \ln(\sin(x)) = \cot(x).
-$
+$$
 
 ---
 3. For $f(x) = \cos(x)$, verify that $f''(x) = -f(x)$.
 
 Если $f(x) = \cos(x)$,первая производная равна(jeśli $f(x) = \cos(x)$, pierwsza pochodna jest równa:):
 
-$
+$$
 f'(x) = \frac{d}{dx} \cos(x) = -\sin(x).
-$
+$$
 
 Теперь берём производную от $f'(x) = -\sin(x)$ (Teraz bierzemy pochodną $f'(x) = -\sin(x)$ :) :
 
-$
+$$
 f''(x) = \frac{d}{dx} \left( -\sin(x) \right) = -\cos(x).
-$
+$$
 
 Мы видим, что:(Widzimy, że:)
 
-$
+$$
 f''(x) = -\cos(x) \quad \text{и} \quad -f(x) = -\cos(x).
-$
+$$
 
 равенство $f''(x) = -f(x) $ выполнено.
 
@@ -575,42 +576,42 @@ $
    - $\displaystyle \lim_{x\to \infty} \frac{\exp(x)}{x}$
 
 ---
- 1. $\lim_{x \to 0} \frac{\sin(x)}{x}$
+ 1. $$\lim_{x \to 0} \frac{\sin(x)}{x}$$
  
 Найдем производные числителя и знаменателя:(Znajdźmy pochodne licznika i mianownika:)
-- $ f'(x) = \cos(x) $,
-- $ g'(x) = 1 $.
+- $$ f'(x) = \cos(x), $$
+- $$ g'(x) = 1 $$
 
 Подставляем производные в предел:(Do limitu podstawiamy instrumenty pochodne:)
 
-$
+$$
 \lim_{x \to 0} \frac{\sin(x)}{x} = \lim_{x \to 0} \frac{\cos(x)}{1} = \cos(0) = 1.
-$
+$$
 
 **Ответ:(odpowiedź)**  
-$
+$$
 \lim_{x \to 0} \frac{\sin(x)}{x} = 1.
-$
+$$
 
 
 
-2. $ \lim_{x \to \infty} \frac{\ln(x)}{x} $
+2. $$ \lim_{x \to \infty} \frac{\ln(x)}{x} $$
 
  
 Найдем производные числителя и знаменателя:(Znajdźmy pochodne licznika i mianownika:)
-- $ f'(x) = \frac{1}{x} $,
-- $ g'(x) = 1 $.
+- $$ f'(x) = \frac{1}{x}, $$
+- $$ g'(x) = 1 $$
 
 Подставляем производные в предел:(Do limitu podstawiamy instrumenty pochodne:)
 
-$
+$$
 \lim_{x \to \infty} \frac{\ln(x)}{x} = \lim_{x \to \infty} \frac{\frac{1}{x}}{1} = \lim_{x \to \infty} \frac{1}{x} = 0.
-$
+$$
 
 **Ответ:(odpowiedź)**  
-$
+$$
 \lim_{x \to \infty} \frac{\ln(x)}{x} = 0.
-$
+$$
 
 
 
@@ -618,19 +619,19 @@ $
 
 
 Найдем производные числителя и знаменателя: (Znajdźmy pochodne licznika i mianownika:)
-- $ f'(x) = \exp(x) $,
-- $ g'(x) = 1 $.
+- $$ f'(x) = \exp(x) ,$$
+- $$ g'(x) = 1 $$
 
 Подставляем производные в предел: (Do limitu podstawiamy instrumenty pochodne:)
 
-$
+$$
 \lim_{x \to \infty} \frac{\exp(x)}{x} = \lim_{x \to \infty} \frac{\exp(x)}{1} = \infty.
-$
+$$
 
 **Ответ:(odpowiedź)**  
-$
+$$
 \lim_{x \to \infty} \frac{\exp(x)}{x} = \infty.
-$
+$$
 
 ---
 
@@ -640,19 +641,19 @@ $
 
 находим первую производную(Скорость $V(t)$): (znajdujemy pierwszą pochodną (Prędkość $V(t)$):)
 
-$V(t)=x'(t) = 6t - 6$
+$$V(t)=x'(t) = 6t - 6$$
 
 находим вторую производную(ускорение $a(t)$): (znajdujemy drugą pochodną (przyspieszenie $a(t)$):)
 
- $a(t)=V''(t)=x''(t) = 6$
+ $$a(t)=V''(t)=x''(t) = 6$$
 
 подставляем $t=2$: (substytut $t=2$:)
 
-$V(2) = 6 \cdot 2 - 6 = 12 - 6 = 6$
+$$V(2) = 6 \cdot 2 - 6 = 12 - 6 = 6$$
 
-$a(2) = 6$
+$$a(2) = 6$$
 
 ### Ответ(odpowiedź): 
-$V(2) =  6$
+$$V(2) =  6$$
 
-$a(2) = 6$
+$$a(2) = 6$$
