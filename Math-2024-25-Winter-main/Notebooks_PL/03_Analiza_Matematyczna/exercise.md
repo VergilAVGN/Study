@@ -10,17 +10,19 @@
 Find value of all the above functions at $x = 2$.
 (Найти значения всех этих функций при x= 2)
 
- - $f(x) = x^2$
-- $f(2) = 4$
-- $-----$
-- $g(x) = \sqrt{x}$
-- $g(2) = 1.4142135623731$
-- $-----$
-- $h(x) = \frac{1}{x}$
-- $h(2) = \frac{1}{2} = 0.5$
-- $-----$
-- $j(x) = \sin(x)$
-- $j(2) = 0.9092974268257$
+ - $$f(x) = x^2$$
+- $$f(2) = 4$$
+
+---
+
+- $$g(x) = \sqrt{x}$$
+- $$g(2) = 1.4142135623731$$
+---
+- $$h(x) = \frac{1}{x}$$
+- $$h(2) = \frac{1}{2} = 0.5$$
+---
+- $$j(x) = \sin(x)$$
+- $$j(2) = 0.9092974268257$$
 
 [link geogebra](https://www.geogebra.org/m/s3vef8hf)
 
@@ -33,21 +35,21 @@ Find value of all the above functions at $x = 2$.
 
 and visualize functions in a single Geogebra notebook.
 
-- $(x) = 3x - 1$
-- $-----$
-- $g(x) = \sqrt{x}$
-- $-----$
-- $f(g(x)) = 3\sqrt{x} - 1$
-- $g(f(x)) = \sqrt{3x-1}$
-- $f(f(x)) = 3(3x-1)-1$
-- $g(g(x)) = \sqrt{\sqrt{x}}$
+- $$(x) = 3x - 1$$
+---
+- $$g(x) = \sqrt{x}$$
+---
+- $$f(g(x)) = 3\sqrt{x} - 1$$
+- $$g(f(x)) = \sqrt{3x-1}$$
+- $$f(f(x)) = 3(3x-1)-1$$
+- $$g(g(x)) = \sqrt{\sqrt{x}}$$
 
 [link geogebra](https://www.geogebra.org/m/hgdh3z34) 
 
 3. Let $f(x) = e^x$ and $g(x) = \ln(x)$. Check: $f(g(x))$ and $g(f(x))$. What do you notice?
 
 - g(f(x)) определена для всех значений x (g(f(x)) jest zdefiniowane dla wszystkich wartości x)
-- $-----$
+---
 - f(g(x))=x для $𝑥>0$ (f(g(x))=x dla $𝑥>0$)
 - f(g(x)) не существует при  $𝑥≤0$ (f(g(x)) nie istnieje dla $𝑥≤0$)
 
@@ -56,107 +58,107 @@ and visualize functions in a single Geogebra notebook.
 4. We have function $f=\{(1,7), (2,9), (3,11)\}$. Give inverse function $f^{-1}$.
 
 
-$f = \{(1, 7), (2, 9), (3, 11)\}.$
+$$f = \{(1, 7), (2, 9), (3, 11)\}.$$
 
-$f(x) = ax + b.$
+$$f(x) = ax + b.$$
 
 - подставляем точки $(1,7),(2,9)$ (zamień punkty $(1,7),(2,9)$)
 
-$a \cdot 1 + b = 7.$
+$$a \cdot 1 + b = 7.$$
 
-$a + b = 7$
+$$a + b = 7$$
 
-$-------$
+---
 
-$a \cdot 2 + b = 9$
+$$a \cdot 2 + b = 9$$
 
-$2a + b =9 $
+$$2a + b =9 $$
 
-$----------$
+---
 
-$\begin{cases}
+$$\begin{cases}
 a + b = 7, \\
 2a + b = 9.
-\end{cases}$
+\end{cases}$$
 
-$(2a + b) - (a + b) = 9 - 7, \quad a = 2$
+$$(2a + b) - (a + b) = 9 - 7, \quad a = 2$$
 
 подставляем $a=2$ в перове уровнение $a+b = 7$ (podstawiamy $a=2$ na pierwszym poziomie $a+b = 7$)
 
-$2+b=7,  \quad b=5$
+$$2+b=7,  \quad b=5$$
 
 --------
-$f(x) = 2x+5$
+$$f(x) = 2x+5$$
 
 - Найдём обратную функцию $(f^{-1}(x))$ (Znajdźmy funkcję odwrotną $(f^{-1}(x))$)
 
-$y = 2x+5$
+$$y = 2x+5$$
 
-$x = 2y+5$
+$$x = 2y+5$$
 
-$2y+5 = x$
+$$2y+5 = x$$
 
-$2y = 5-x$
+$$2y = 5-x$$
 
-$y = \frac{x - 5}{2}$
+$$y = \frac{x - 5}{2}$$
 ----
 Точки обратной функции (Punkty funkcji odwrotnej)
-- $( f(1) = 7 ), ( f^{-1}(7) = 1 ).$
-- $( f(2) = 9 ),( f^{-1}(9) = 2 ).$
-- $( f(3) = 11 ),( f^{-1}(11) = 3 ).$
+- $$( f(1) = 7 ), ( f^{-1}(7) = 1 ).$$
+- $$( f(2) = 9 ),( f^{-1}(9) = 2 ).$$
+- $$( f(3) = 11 ),( f^{-1}(11) = 3 ).$$
 
 Точки функции $(f^{-1}(x)):$ (Punkty funkcji $(f^{-1}(x)):$)
 
-$
+$$
 f^{-1} = \{(7, 1), (9, 2), (11, 3)\}.
-$
+$$
 
 [Link geogebra](https://www.geogebra.org/m/peyx4a9m)
 
 
 5. We have function $f=\{(1,7), (2,7), (3,11)\}$. Give inverse function $f^{-1}$.
 
-$f = {(1, 7), (2, 7), (3, 11)}$
+$$f = {(1, 7), (2, 7), (3, 11)}$$
 
-$f(x) =
+$$f(x) =
 \begin{cases}
 7, & x = 1 \text{ или } x = 2, \\
 11, & x = 3.
-\end{cases}$
+\end{cases}$$
 
 ----
 Точки обратной функции (Punkty funkcji odwrotnej)
-- $( f(1) = 7 ), ( f^{-1}(7) = 1 ).$
-- $( f(2) = 7 ),( f^{-1}(7) = 2 ).$
-- $( f(3) = 11 ),( f^{-1}(11) = 3 ).$
+- $$( f(1) = 7 ), ( f^{-1}(7) = 1 ).$$
+- $$( f(2) = 7 ),( f^{-1}(7) = 2 ).$$
+- $$( f(3) = 11 ),( f^{-1}(11) = 3 ).$$
 
 Точки функции $(f^{-1}(x)):$ (Punkty funkcji $(f^{-1}(x)):$)
 
-$
+$$
 f^{-1} = \{(7, 1), (7, 2), (11, 3)\}.
-$
+$$
 
-$
+$$
 f^{-1}(x) =
 \begin{cases}
 1 \text{ или } 2, & x = 7, \\
 3, & x = 11.
 \end{cases}
-$
+$$
 
 6. We have function $f(x)= x-1$. Give inverse function $f^{-1}$. Show both functions on the same Geogebra notebook.
 
-$f(x) = x-1$
+$$f(x) = x-1$$
 
 - Находим обратную функцию $(f^{-1})$ (Znajdujemy funkcję odwrotną $(f^{-1})$)
 
-$y = x-1$
+$$y = x-1$$
 
-$x = y-1$
+$$x = y-1$$
 
-$y = x+1$
+$$y = x+1$$
 
-$f^{-1}(x) = x+1$
+$$f^{-1}(x) = x+1$$
 
 [Link geogebra](https://www.geogebra.org/m/ggw9vqpe)
 
@@ -310,12 +312,12 @@ $
 
 Разделим числитель и знаменатель на $x^4$(Podzielmy licznik i mianownik przez $x^4$)
 
-$
+$$
 \frac{x^3 + 2x^2}{x^4 - 3x^3} = \frac{\frac{x^3}{x^4} + \frac{2x^2}{x^4}}{\frac{x^4}{x^4} - \frac{3x^3}{x^4}}
-$
-$
+$$
+$$
 = \frac{\frac{1}{x} + \frac{2}{x^2}}{1 - \frac{3}{x}}
-$
+$$
 
 При $x \to \infty$, дробные члены ($\frac{1}{x}$, $\frac{2}{x^2}$, $\frac{3}{x}$) стремятся к нулю:(Przy $x \to \infty$ wyrazy ułamkowe ($\frac{1}{x}$, $\frac{2}{x^2}$, $\frac{3}{x}$) dążą do zera :)
 
@@ -352,16 +354,21 @@ $f(x) = \frac{x^2 - 1}{x^2 + 1}$:
 
 - **Горизонтальные асимптоты(Asymptoty poziome)**:
 
-   Рассмотрим предел $\lim_{x \to \infty} f(x) $:(Rozważmy granicę $\lim_{x \to \infty} f(x) $:)
+   Рассмотрим предел $\lim_{x \to \infty} f(x) $:
+   
+   (Rozważmy granicę $\lim_{x \to \infty} f(x) $:)
+
    $
    f(x) = \frac{x^2 - 1}{x^2 + 1} = \frac{1 - \frac{1}{x^2}}{1 + \frac{1}{x^2}}.
    $
    При $x \to \infty $, $\frac{1}{x^2} \to 0$, поэтому:(Dla $x \to \infty $, $\frac{1}{x^2} \to 0$ ,zatem:)
+
    $
    \lim_{x \to \infty} f(x) = \frac{1 - 0}{1 + 0} = 1.
    $
 
    Также для предела $ \lim_{x \to -\infty} f(x) $:(Również dla granicy $ \lim_{x \to -\infty} f(x) $:)
+
    $
    \lim_{x \to -\infty} f(x) = \frac{1 - 0}{1 + 0} = 1.
    $
@@ -375,16 +382,21 @@ $ g(x) = \frac{\sin(x)}{x+1} $:
 
 - **Горизонтальные асимптоты(Asymptoty poziome)**:
 
-   Рассмотрим предел $ \lim_{x \to \infty} g(x) $:(Rozważmy granicę $ \lim_{x \to \infty} g(x) $:)
+   Рассмотрим предел $ \lim_{x \to \infty} g(x) $:
+   (Rozważmy granicę $ \lim_{x \to \infty} g(x) $:)
+
    $
    g(x) = \frac{\sin(x)}{x+1}.
    $
+
    Числитель, $\sin(x)$, ограничен (от $-1$ до $1$), а знаменатель $x + 1 \to \infty $. Поэтому:(Licznik $\sin(x)$ jest ograniczony (od $-1$ do $1$), a mianownik wynosi $x + 1 \to \infty $. Dlatego:)
+   
    $
    \lim_{x \to \infty} g(x) = 0.
    $
 
    Также для предела $\lim_{x \to -\infty} g(x) $:(Również dla granicy $\lim_{x \to -\infty} g(x) $:)
+   
    $
    \lim_{x \to -\infty} g(x) = 0.
    $
@@ -407,7 +419,9 @@ $ g(x) = \frac{\sin(x)}{x+1} $:
 
    **Вертикальная асимптота(Asymptota pionowa)**: $ x = -1$.
 
-1. Compute derivatives of functions:
+## Derivatives
+
+1. Compute derivatives of functions:(Найти производные функций)
    * $y(x) = -3x+3$
    * $y(x) = \pi x + \sin(1)$
    * $y(x) = 4+\sin(2)$
@@ -426,7 +440,7 @@ $ g(x) = \frac{\sin(x)}{x+1} $:
    * $y(x) = \sqrt{2x+1}$
 ---
 
-- $ y(x) = - 3x + 4 $
+- $ y(x) = - 3x + 3 $
 
    $
    y'(x) = -3.
@@ -475,7 +489,7 @@ $ g(x) = \frac{\sin(x)}{x+1} $:
    $y'(x) = u'v + uv'$.
 
    $
-   y'(x) = 2[\cos(x) \cdot \cos(x) - \sin(x) \cdot \sin(x)] = 2\cos(2x).
+   y'(x) = 2(\cos(x) \cdot \cos(x) - \sin(x) \cdot \sin(x)) = 2\cos(2x).
    $
 
 - $y(x) = \exp(x^2)$
@@ -630,7 +644,7 @@ $V(t)=x'(t) = 6t - 6$
 
 находим вторую производную(ускорение $a(t)$): (znajdujemy drugą pochodną (przyspieszenie $a(t)$):)
 
- $a(t)=V'(t)=x''(t) = 6$
+ $a(t)=V''(t)=x''(t) = 6$
 
 подставляем $t=2$: (substytut $t=2$:)
 
