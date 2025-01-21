@@ -657,3 +657,216 @@ $$a(2) = 6$$
 $$V(2) =  6$$
 
 $$a(2) = 6$$
+
+## Integrals
+
+1. Compute:
+   - $\int 1 dx$
+   - $\int (x^2 +2) dx$
+   - $\int 2\sin(x) dx$
+   - $\int \frac{3}{x} dx$
+   - $\int \frac{1}{x^2} dx$
+   - $\int \left( \frac{1}{3}x^4 - 5 \right) \, dx$
+   - $\int (\sin^2 x + \cos^2 x) \, dx$
+   - $\int (5 \sin x + 3e^x) \, dx$
+   - $\int \sqrt[3]{x} \, dx$
+   - $\int \sqrt{10x} \, dx$
+   - $\int \cos\left(\frac{5}{2}x + 3\right) \, dx$
+   - $\int \frac{\cos(\ln(x))}{x} \, dx$
+   - $\int x \ln(x) \, dx$
+   - $\int x e^x \, dx$
+---
+### 1. $\int 1 \, dx$
+Интегрируем:(Integrujemy:)
+$$
+\int 1 \, dx = x + C,
+$$
+
+---
+
+### 2. $\int (x^2 + 2) \, dx$
+интегрируем по частям:(integrujemy przez części:)
+$$
+\int x^2 \, dx = \frac{x^3}{3}, \quad \int 2 \, dx = 2x.
+$$
+соединяем:(łączymy:)
+$$
+\int (x^2 + 2) \, dx = \frac{x^3}{3} + 2x + C.
+$$
+
+---
+
+### 3. $\int 2\sin(x) \, dx$
+интегрируем:(Integrujemy:)
+$$
+\int 2\sin(x) \, dx = -2\cos(x) + C.
+$$
+
+---
+
+### 4. $\int \frac{3}{x} \, dx$
+Интегрируем:(Integrujemy:)
+$$
+\int \frac{3}{x} \, dx = 3\ln|x| + C.
+$$
+
+---
+
+### 5. $\int \frac{1}{x^2} \, dx$
+Перепишем:(Przepiszmy:) $$\frac{1}{x^2} = x^{-2}$$
+Интегрируем:(Integrujemy:)
+$$
+\int x^{-2} \, dx = \frac{x^{-1}}{-1} = -\frac{1}{x} + C.
+$$
+
+---
+
+### 6. $\int \left(\frac{1}{3}x^4 - 5\right) \, dx$
+интегрируем по частям:(integrujemy przez części:)
+$$
+\int \frac{1}{3}x^4 \, dx = \frac{1}{15}x^5, \quad \int -5 \, dx = -5x.
+$$
+соединяем:(łączymy:)
+$$
+\int \left(\frac{1}{3}x^4 - 5\right) \, dx = \frac{1}{15}x^5 - 5x + C.
+$$
+
+---
+
+### 7. $\int (\sin^2 x + \cos^2 x) \, dx$
+По тригонометрической тождественности:(Na podstawie tożsamości trygonometrycznej:)
+ $$\sin^2x + \cos^2x = 1$$
+Интегрируем:(Integrujemy:)
+$$
+\int (\sin^2 x + \cos^2 x) \, dx = \int 1 \, dx = x + C.
+$$
+
+---
+
+### 8. $\int (5 \sin x + 3e^x) \, dx$
+интегрируем по частям:(integrujemy przez części:)
+$$
+\int 5\sin x \, dx = -5\cos x, \quad \int 3e^x \, dx = 3e^x.
+$$
+Соединяем:(łączymy:)
+$$
+\int (5 \sin x + 3e^x) \, dx = -5\cos x + 3e^x + C.
+$$
+
+---
+
+### 9. $\int \sqrt[3]{x} \, dx$
+Перепишем:(Przepiszmy:) $$\sqrt[3]{x} = x^{1/3}$$
+Интегрируем:(Integrujemy:)
+$$
+\int x^{1/3} \, dx = \frac{x^{4/3}}{4/3} = \frac{3x^{4/3}}{4} + C.
+$$
+
+---
+
+### 10. $\int \sqrt{10x} \, dx$
+Перепишем:(Przepiszmy:) $$\sqrt{10x} = (10x)^{1/2}$$
+интегрируем:(Integrujemy:)
+$$
+\int (10x)^{1/2} \, dx = \sqrt{10} \int x^{1/2} \, dx = \sqrt{10} \cdot \frac{x^{3/2}}{3/2} = \frac{2\sqrt{10}}{3}x^{3/2} + C.
+$$
+
+---
+
+2. Calculate integrals over the interval $[0, \pi]$ and visualize them in Geogebra:
+   - $f(x)=2x+1$
+   - $g(x)=x^2$
+   ---
+### 1. $f(x)=2x+1$
+
+$$\int_{0}^{\pi} (2x + 1) \, dx$$
+
+Интегрируем:(Integrujemy:)
+$$\left[ x^2 + x \right]_{0}^{\pi}$$
+Подставляем сначала $\pi$ вместо $x$ потом 0 вместо $x$(Najpierw podstawiamy $\pi$ zamiast $x$, następnie 0 zamiast $x$)
+$$= (\pi^2 + \pi) - (0^2 + 0) = \pi^2 + \pi$$
+
+**Ответ:(odpowiedź)** 
+$$\pi^2 + \pi$$
+
+[link geogebra](https://www.geogebra.org/m/dbtngsxu)
+---
+### 2. $g(x)=x^2$
+
+$$\int_{0}^{\pi} x^2 \, dx$$
+Интегрируем:(Integrujemy:)
+$$\left[ \frac{x^3}{3} \right]_{0}^{\pi}$$
+Подставляем сначала $\pi$ вместо $x$ потом 0 вместо $x$:(Najpierw podstawiamy $\pi$ zamiast $x$, następnie 0 zamiast $x$)
+$$=(\frac{\pi^3}{3}) - (\frac{0^3}{3}) = \frac{\pi^3}{3}$$
+**Ответ:(odpowiedź)** 
+$$\frac{\pi^3}{3}$$
+
+[link geogebra](https://www.geogebra.org/m/kfz9jjta)
+---
+3. Calculate the area of the region bounded by the lines:
+$x = 1$, $x = 2$, $y = 0$, and $y = x^2 + 1$. Show it in Geogebra.
+---
+$$\int_1^2 x^2 + 1\, dx$$
+Интегрируем:(Integrujemy:)
+$$= \left[ \frac{x^3}{3} + x\right]_{1}^{2}$$
+Подставляем сначала 2 вместо $x$ потом 1 вместо $x$:(Najpierw podstawiamy 2 zamiast $x$, następnie 1 zamiast $x$:)
+$$= \left( \frac{2^3}{3} + 2 \right) - \left( \frac{1^3}{3} + 1 \right)$$
+Упрощаем:(Uprośćmy:)
+$$= \left( \frac{8}{3} + 2 \right) - \left( \frac{1}{3} + 1 \right)= \left( \frac{8}{3} + \frac{6}{3} \right) - \left( \frac{1}{3} + \frac{3}{3} \right)= \frac{14}{3} - \frac{4}{3} = \frac{10}{3}$$
+**Ответ:(odpowiedź)** 
+$$\frac{10}{3}$$
+[link geogebra](https://www.geogebra.org/m/by7z8ayc)
+---
+4. Calculate the area under the sine curve over the interval $[0, \pi]$, using:
+
+$$P = \int_a^b f(x) \, dx = \int_0^\pi \sin(x) \, dx$$
+---
+$$P = \int_0^\pi \sin(x) \, dx$$
+Интегрируем:(Integrujemy:)
+$$= \left[ -\cos(x) \right]_0^\pi$$
+Подставляем сначала $\pi$ вместо $x$ потом 0 вместо $x$:(Najpierw podstawiamy $\pi$ zamiast $x$, następnie 0 zamiast $x$:)
+$$= -\cos(\pi) + \cos(0)$$
+
+Мы знаем что:(Wiemy, że:)
+$$\cos(\pi) = -1 \quad \text{і} \quad \cos(0) = 1$$
+Тогда:(Następnie:)
+$$= -(-1) + 1 = 1 + 1 = 2$$
+**Ответ:(odpowiedź)** 
+$$P=2$$
+---
+6. Find the distance of the moving particle between time $t=0$ and $t=2$ for the following position function: $x(t) = 3t^2 - 6t + 1$.(Найдите расстояние движущейся частицы между моментами времени $t=0$ и $t=2$ для следующей функции положения: $x(t) = 3t^2 - 6t + 1$.)
+---
+$$x(t) = 3t^2 - 6t + 1$$
+
+Найдем скорость v(t):(Znajdźmy prędkość v(t):)  
+$$v(t) = \frac{d}{dt}(3t^2 - 6t + 1) = 6t - 6$$
+
+
+Найдем момент, когда скорость равна нулю,приравниваем скорость к нулю:(Znajdźmy moment, w którym prędkość wynosi zero, przyrównajmy prędkość do zera:)
+
+$$
+6t - 6 = 0 \implies t = 1
+$$
+
+Вычислим интегралы.(Obliczmy całki.)
+
+1. Для(Dla) $ t \in [0, 1] $:
+   $$
+   \int_0^1 (6t - 6) \, dt = \left[3t^2 - 6t  \right]_0^1 = (3 - 6) - (0 - 0) = -3
+   $$
+
+2. Для(Dla) $ t \in [1, 2] $:
+   $$
+   \int_1^2 (6t - 6) \, dt = \left[ 3t^2 - 6t \right]_1^2 = \left( 3(2)^2 - 6(2) \right) - \left( 3(1)^2 - 6(1) \right)
+   $$
+   $$
+   = (12 - 12) - (3 - 6) = 0 - (-3) = 3
+   $$
+
+
+суммируем оба интеграла:(sumujemy obie całki:)
+$$
+3 +(- 3) = 3 - 3 = 0
+$$
+
+**Ответ:(odpowiedź)** $$0$$
