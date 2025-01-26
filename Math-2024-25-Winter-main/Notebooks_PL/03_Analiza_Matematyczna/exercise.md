@@ -677,7 +677,7 @@ $$a(2) = 6$$
    - $\int x e^x \, dx$
 ---
 ### 1. $\int 1 \, dx$
-Интегрируем:(Integrujemy:)
+Интегрируем:(całkujemy:)
 $$
 \int 1 \, dx = x + C,
 $$
@@ -685,7 +685,7 @@ $$
 ---
 
 ### 2. $\int (x^2 + 2) \, dx$
-интегрируем по частям:(integrujemy przez części:)
+интегрируем по частям:(całkujemy przez części:)
 $$
 \int x^2 \, dx = \frac{x^3}{3}, \quad \int 2 \, dx = 2x.
 $$
@@ -697,7 +697,7 @@ $$
 ---
 
 ### 3. $\int 2\sin(x) \, dx$
-интегрируем:(Integrujemy:)
+интегрируем:(całkujemy:)
 $$
 \int 2\sin(x) \, dx = -2\cos(x) + C.
 $$
@@ -705,7 +705,7 @@ $$
 ---
 
 ### 4. $\int \frac{3}{x} \, dx$
-Интегрируем:(Integrujemy:)
+Интегрируем:(całkujemy:)
 $$
 \int \frac{3}{x} \, dx = 3\ln|x| + C.
 $$
@@ -714,7 +714,7 @@ $$
 
 ### 5. $\int \frac{1}{x^2} \, dx$
 Перепишем:(Przepiszmy:) $$\frac{1}{x^2} = x^{-2}$$
-Интегрируем:(Integrujemy:)
+Интегрируем:(całkujemy:)
 $$
 \int x^{-2} \, dx = \frac{x^{-1}}{-1} = -\frac{1}{x} + C.
 $$
@@ -722,7 +722,7 @@ $$
 ---
 
 ### 6. $\int \left(\frac{1}{3}x^4 - 5\right) \, dx$
-интегрируем по частям:(integrujemy przez części:)
+интегрируем по частям:(całkujemy przez części:)
 $$
 \int \frac{1}{3}x^4 \, dx = \frac{1}{15}x^5, \quad \int -5 \, dx = -5x.
 $$
@@ -736,7 +736,7 @@ $$
 ### 7. $\int (\sin^2 x + \cos^2 x) \, dx$
 По тригонометрической тождественности:(Na podstawie tożsamości trygonometrycznej:)
  $$\sin^2x + \cos^2x = 1$$
-Интегрируем:(Integrujemy:)
+Интегрируем:(całkujemy:)
 $$
 \int (\sin^2 x + \cos^2 x) \, dx = \int 1 \, dx = x + C.
 $$
@@ -744,7 +744,7 @@ $$
 ---
 
 ### 8. $\int (5 \sin x + 3e^x) \, dx$
-интегрируем по частям:(integrujemy przez części:)
+интегрируем по частям:(całkujemy przez części:)
 $$
 \int 5\sin x \, dx = -5\cos x, \quad \int 3e^x \, dx = 3e^x.
 $$
@@ -757,7 +757,7 @@ $$
 
 ### 9. $\int \sqrt[3]{x} \, dx$
 Перепишем:(Przepiszmy:) $$\sqrt[3]{x} = x^{1/3}$$
-Интегрируем:(Integrujemy:)
+Интегрируем:(całkujemy:)
 $$
 \int x^{1/3} \, dx = \frac{x^{4/3}}{4/3} = \frac{3x^{4/3}}{4} + C.
 $$
@@ -766,9 +766,71 @@ $$
 
 ### 10. $\int \sqrt{10x} \, dx$
 Перепишем:(Przepiszmy:) $$\sqrt{10x} = (10x)^{1/2}$$
-интегрируем:(Integrujemy:)
+интегрируем:(całkujemy:)
 $$
 \int (10x)^{1/2} \, dx = \sqrt{10} \int x^{1/2} \, dx = \sqrt{10} \cdot \frac{x^{3/2}}{3/2} = \frac{2\sqrt{10}}{3}x^{3/2} + C.
+$$
+
+---
+### 11. $\int \cos\left(\frac{5}{2}x + 3\right) \, dx$
+
+Пусть
+
+$$
+t = \frac{5}{2}x + 3, \quad \text{тогда} \quad \frac{dt}{dx} = \frac{5}{2}, \quad \text{,} \quad dx = \frac{2}{5} \, dt.
+$$
+
+Подставим это в интеграл:
+
+$$
+ \int \cos(t) \cdot \frac{2}{5} \, dt.
+$$
+
+Вынесем константу перед интегралом:
+
+$$
+\frac{2}{5} \int \cos(t) \, dt.
+$$
+
+Интегрируем:(całkujemy:)
+
+$$
+\frac{2}{5} \int \cos(u) \, du = \frac{2}{5} \sin(u) + C,
+$$
+
+
+Подставляем $t = \frac{5}{2}x + 3$:
+
+$$
+\frac{2}{5} \sin\left(\frac{5}{2}x + 3\right) + C.
+$$
+---
+### 12. $\int \frac{\cos(\ln(x))}{x} \, dx$
+
+Пусть
+
+$$
+t = \ln(x), \quad \text{тогда} \quad \frac{dt}{dx} = \frac{1}{x}, \quad \text{,} \quad dx = x \, dt.
+$$
+
+Подставим это в интеграл:
+
+$$
+ \int \cos(t) \, dt.
+$$
+
+Интегрируем:(całkujemy:)
+
+$$
+\int \cos(t) \, dt = \sin(t) + C,
+$$
+
+
+
+подставляем $t = \ln(x)$:
+
+$$
+ \sin(\ln(x)) + C
 $$
 
 ---
@@ -781,7 +843,7 @@ $$
 
 $$\int_{0}^{\pi} (2x + 1) \, dx$$
 
-Интегрируем:(Integrujemy:)
+Интегрируем:(całkujemy:)
 $$\left[ x^2 + x \right]_{0}^{\pi}$$
 Подставляем сначала $\pi$ вместо $x$ потом 0 вместо $x$(Najpierw podstawiamy $\pi$ zamiast $x$, następnie 0 zamiast $x$)
 $$= (\pi^2 + \pi) - (0^2 + 0) = \pi^2 + \pi$$
@@ -794,7 +856,7 @@ $$\pi^2 + \pi$$
 ### 2. $g(x)=x^2$
 
 $$\int_{0}^{\pi} x^2 \, dx$$
-Интегрируем:(Integrujemy:)
+Интегрируем:(całkujemy:)
 $$\left[ \frac{x^3}{3} \right]_{0}^{\pi}$$
 Подставляем сначала $\pi$ вместо $x$ потом 0 вместо $x$:(Najpierw podstawiamy $\pi$ zamiast $x$, następnie 0 zamiast $x$)
 $$=(\frac{\pi^3}{3}) - (\frac{0^3}{3}) = \frac{\pi^3}{3}$$
@@ -807,7 +869,7 @@ $$\frac{\pi^3}{3}$$
 $x = 1$, $x = 2$, $y = 0$, and $y = x^2 + 1$. Show it in Geogebra.
 ---
 $$\int_1^2 x^2 + 1\, dx$$
-Интегрируем:(Integrujemy:)
+Интегрируем:(całkujemy:)
 $$= \left[ \frac{x^3}{3} + x\right]_{1}^{2}$$
 Подставляем сначала 2 вместо $x$ потом 1 вместо $x$:(Najpierw podstawiamy 2 zamiast $x$, następnie 1 zamiast $x$:)
 $$= \left( \frac{2^3}{3} + 2 \right) - \left( \frac{1^3}{3} + 1 \right)$$
@@ -822,7 +884,7 @@ $$\frac{10}{3}$$
 $$P = \int_a^b f(x) \, dx = \int_0^\pi \sin(x) \, dx$$
 ---
 $$P = \int_0^\pi \sin(x) \, dx$$
-Интегрируем:(Integrujemy:)
+Интегрируем:(całkujemy:)
 $$= \left[ -\cos(x) \right]_0^\pi$$
 Подставляем сначала $\pi$ вместо $x$ потом 0 вместо $x$:(Najpierw podstawiamy $\pi$ zamiast $x$, następnie 0 zamiast $x$:)
 $$= -\cos(\pi) + \cos(0)$$
