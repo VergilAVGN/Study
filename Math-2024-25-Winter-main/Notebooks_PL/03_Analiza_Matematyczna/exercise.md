@@ -774,19 +774,19 @@ $$
 ---
 ### 11. $\int \cos\left(\frac{5}{2}x + 3\right) \, dx$
 
-Пусть
+Пусть(Niech)
 
 $$
-t = \frac{5}{2}x + 3, \quad \text{тогда} \quad \frac{dt}{dx} = \frac{5}{2}, \quad \text{,} \quad dx = \frac{2}{5} \, dt.
+t = \frac{5}{2}x + 3, \quad \text{тогда(zatem)} \quad \frac{dt}{dx} = \frac{5}{2}, \quad \text{,} \quad dx = \frac{2}{5} \, dt.
 $$
 
-Подставим это в интеграл:
+Подставим это в интеграл:(Podstawmy to do całki)
 
 $$
  \int \cos(t) \cdot \frac{2}{5} \, dt.
 $$
 
-Вынесем константу перед интегралом:
+Вынесем константу перед интегралом:(Usuńmy stałą przed całką)
 
 $$
 \frac{2}{5} \int \cos(t) \, dt.
@@ -799,7 +799,7 @@ $$
 $$
 
 
-Подставляем $t = \frac{5}{2}x + 3$:
+Подставляем(Podstawiamy) $t = \frac{5}{2}x + 3$:
 
 $$
 \frac{2}{5} \sin\left(\frac{5}{2}x + 3\right) + C.
@@ -807,13 +807,13 @@ $$
 ---
 ### 12. $\int \frac{\cos(\ln(x))}{x} \, dx$
 
-Пусть
+Пусть(Niech)
 
 $$
-t = \ln(x), \quad \text{тогда} \quad \frac{dt}{dx} = \frac{1}{x}, \quad \text{,} \quad dx = x \, dt.
+t = \ln(x), \quad \text{тогда(zatem)} \quad \frac{dt}{dx} = \frac{1}{x}, \quad \text{,} \quad dx = x \, dt.
 $$
 
-Подставим это в интеграл:
+Подставим это в интеграл:(Podstawmy to do całki)
 
 $$
  \int \cos(t) \, dt.
@@ -827,7 +827,7 @@ $$
 
 
 
-подставляем $t = \ln(x)$:
+подставляем(Podstawiamy) $t = \ln(x)$:
 
 $$
  \sin(\ln(x)) + C
