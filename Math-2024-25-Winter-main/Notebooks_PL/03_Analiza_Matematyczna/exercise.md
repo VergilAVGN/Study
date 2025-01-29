@@ -932,3 +932,254 @@ $$
 $$
 
 **Ответ:(odpowiedź)** $$0$$
+
+---
+## Taylor Series
+
+1. Find the Taylor series and visualize obtained functions in Geogebra:
+   - $f(x) = \cos(x)$ around $x = 0$ up to the 4th degree.
+   - $h(x) = 1/(1-x)$ around $x = 0$ up to the 4rd degree.
+   - $g(x) = \sin(x)$ around $x = \pi$ up to the 4rd degree.
+---
+1. $f(x) = \cos(x)$ around $x = 0$ up to the 4th degree.
+
+$$
+f(x) = f(a) + f'(a) \frac{(x - a)}{1!} + f''(a) \frac{(x - a)^2}{2!} + f'''(a) \frac{(x - a)^3}{3!} + f^{(4)}(a)\frac{(x - a)^4}{4!}
+$$
+
+
+Найдем производные:(Znajdźmy pochodne:)
+ 
+$$
+f'(x) = -\sin(x)
+$$
+
+$$
+f''(x) = -\cos(x)
+$$
+
+$$
+f'''(x) = \sin(x)
+$$
+  
+$$
+f^{(4)}(x) = \cos(x)
+$$
+
+Найдем значение в точке $x = 0$(Znajdźmy wartość w punkcie x = 0)
+
+$$
+f(0) = \cos(0) = 1
+$$
+
+$$
+f'(0) = -\sin(0) = 0
+$$
+
+$$
+f''(0) = -\cos(0) = -1
+$$
+
+$$
+f'''(0) = \sin(0) = 0
+$$
+
+$$
+f^{(4)}(0) = \cos(0) = 1
+$$
+
+Подставляем значения:(Podstawiamy wartości:)
+
+$$
+\cos(x) \approx 1 + 0 \cdot \frac{x}{1!} + (-1) \cdot \frac{x^2}{2!} + 0 \cdot \frac{x^3}{3!} + 1 \cdot \frac{x^4}{4!}
+$$
+упрощяем(Uprośćmy:)
+$$
+\cos(x) \approx 1 - \frac{x^2}{2} + \frac{x^4}{24}
+$$
+
+Итоговый многочлен Тейлора 4-й степени:(Wynikowy wielomian Taylora stopnia 4 ma postać:)
+
+$$
+T_4(x) = 1 - \frac{x^2}{2} + \frac{x^4}{24}
+$$
+
+**Ответ:(odpowiedź)**
+$$
+T_4(x) = 1 - \frac{x^2}{2} + \frac{x^4}{24}
+$$
+
+[link geogebra](https://www.geogebra.org/m/yq6yfcbm)
+
+---
+
+2. $h(x) = 1/(1-x)$ around $x = 0$ up to the 4rd degree.
+
+Найдем производеые(Znajdźmy pochodne:)
+ 
+$$
+h'(x) = \frac{1}{(1 - x)^2}
+$$
+
+ 
+$$
+h''(x) = \frac{2}{(1 - x)^3}
+$$
+
+$$
+h^{(3)}(x) = \frac{6}{(1 - x)^4}
+$$
+  
+$$
+h^{(4)}(x) = \frac{24}{(1 - x)^5}
+$$
+
+Найдем значение в точке  $x = 0$:(Znajdźmy wartość w punkcie x = 0:)
+
+$$
+h(0) = \frac{1}{1 - 0} = 1
+$$
+
+$$
+h'(0) = \frac{1}{(1 - 0)^2} = 1
+$$
+
+$$
+h''(0) = \frac{2}{(1 - 0)^3} = 2
+$$
+
+$$
+h'''(0) = \frac{6}{(1 - 0)^4} = 6
+$$
+
+$$
+h^{(4)}(0) = \frac{24}{(1 - 0)^5} = 24
+$$
+
+Подставляем значения:(Podstawiamy wartości:)
+
+$$
+h(x) \approx 1 + 1 \cdot x + 2 \cdot \frac{x^2}{2!} + 6 \cdot \frac{x^3}{3!} + 24 \cdot \frac{x^4}{4!}
+$$
+упрощяем(Uprośćmy:)
+$$
+h(x) \approx 1 + x + x^2 + x^3 + x^4
+$$
+
+Итоговый многочлен Тейлора 4-й степени:(Wynikowy wielomian Taylora stopnia 4 ma postać:)
+
+$$
+T_4(x) = 1 + x + x^2 + x^3 + x^4
+$$
+
+**Ответ:(odpowiedź)**
+$$
+T_4(x) = 1 + x + x^2 + x^3 + x^4
+$$
+
+[link geogebra](https://www.geogebra.org/m/g2b8jwcx)
+
+---
+
+3. $g(x) = \sin(x)$ around $x = \pi$ up to the 4rd degree.
+
+
+Найдем производные(Znajdźmy pochodne:)
+
+$$
+g'(x) = \cos(x)
+$$
+ 
+$$
+g''(x) = -\sin(x)
+$$
+ 
+$$
+g'''(x) = -\cos(x)
+$$
+ 
+$$
+g^{(4)}(x) = \sin(x)
+$$
+
+Найдем значение в точке $x = \pi$(Znajdźmy wartość w punkcie $x = \pi$)
+
+$$
+g(\pi) = \sin(\pi) = 0
+$$
+
+$$
+g'(\pi) = \cos(\pi) = -1
+$$
+
+$$
+g''(\pi) = -\sin(\pi) = 0
+$$
+
+$$
+g^{(3)}(\pi) = -\cos(\pi) = 1
+$$
+
+$$
+g^{(4)}(\pi) = \sin(\pi) = 0
+$$
+
+
+Подставляем найденные значения:(Podstawiamy znalezione wartości:)
+
+$$
+g(x) \approx 0 + (-1) \cdot \frac{(x - \pi)}{1!} + 0 \cdot \frac{(x - \pi)^2}{2!} + 1 \cdot \frac{(x - \pi)^3}{3!} + 0 \cdot \frac{(x - \pi)^4}{4!}
+$$
+упростим(Uprośćmy:)
+$$
+g(x) \approx - (x - \pi) + \frac{(x - \pi)^3}{6}
+$$
+
+Итоговый многочлен Тейлора 4-й степени:(Wynikowy wielomian Taylora stopnia 4 ma postać:)
+
+$$
+T_4(x) = - (x - \pi) + \frac{(x - \pi)^3}{6}
+$$
+
+**Ответ:(odpowiedź)**
+$$
+T_4(x) = - (x - \pi) + \frac{(x - \pi)^3}{6}
+$$
+
+[link geogebra](https://www.geogebra.org/m/hvtkuneg)
+
+---
+2. Find a tangent line $y = f'(x_0) (x-x_0) + f(x_0)$ to the function $f(x) = e^{\sin(x)}$ at $x_0 = \pi$. Hints for Geogebra visualization: define f(x), include slider s, define y = f'(s) (x-s) + f(s), and include point P(s, f(s)).
+
+---
+
+Найдем $f(x_0)$:(Znajdźmy $f(x_0)$:)
+
+$$
+f(\pi) = e^{\sin(\pi)} = e^0 = 1.
+$$
+
+Найдем производную $f(x)$:(Znajdźmy pochodną $f(x)$:)
+$$
+f'(x) = \frac{d}{dx}\left(e^{\sin(x)}\right) = \frac{d}{dx}\left(e^{\sin(x)}\right)\cdot \frac{d}{dx}\left(sin(x)\right)  = e^{\sin(x)} \cdot \cos(x).
+$$
+
+Найдем $f'(x_0)$:(Znajdźmy $f'(x_0)$:)
+$$
+f'(\pi) = e^{\sin(\pi)} \cdot \cos(\pi) = e^0 \cdot (-1) = -1.
+$$
+
+Подставляем найденые значения:(Podstawiamy znalezione wartości:)
+$$
+y = -1 \cdot (x - \pi) + 1.
+$$
+Упростим:(Uprośćmy:)
+$$
+y = -x + \pi + 1.
+$$
+
+**Ответ:(odpowiedź)**
+$$
+y = -x + \pi + 1.
+$$
+[link geogebra](https://www.geogebra.org/m/ewy5e6nu)
